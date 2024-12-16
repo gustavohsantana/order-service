@@ -51,7 +51,7 @@ A aplicação utiliza:
     - Reduz consultas ao banco de dados utilizando Redis para armazenar pedidos recentes e listas de pedidos.
     - Estratégia TTL de 10 minutos para evitar dados desatualizados.
   
- 2. **Banco SQL**:
+3. **Banco SQL**:
     - No projeto apenas para fins de teste foi utilizado o Banco H2 SQL
     - Dados estão estruturados para garantir a persistência ATOMICA de um banco de SQL;
 
